@@ -27,6 +27,7 @@
                 <version>${mule.maven.plugin.version}</version>
                 <extensions>true</extensions>
                 <configuration>
+                    <skip>true</skip>
                 </configuration>
             </plugin>
         </plugins>
