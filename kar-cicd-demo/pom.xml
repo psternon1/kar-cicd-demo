@@ -32,6 +32,7 @@
                 </configuration>
             </plugin>
         </plugins>
+       <outputDirectory>${basedir}/target/classes</outputDirectory>
     </build>
     <dependencies>
         <dependency>
