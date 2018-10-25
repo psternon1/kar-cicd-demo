@@ -1,24 +1,3 @@
 {
-  "configs": [
-    "test-impl.xml",
-    "test.xml"
-  ],
-  "secureProperties": [],
-  "redeploymentEnabled": true,
-  "name": "kar-cicd-demo",
-  "minMuleVersion": "4.1.2",
-  "requiredProduct": "MULE_EE",
-  "classLoaderModelLoaderDescriptor": {
-    "id": "mule",
-    "attributes": {
-      "exportedPackages": [],
-      "exportedResources": [
-        "api/test.raml"
-      ]
-    }
-  },
-  "bundleDescriptorLoader": {
-    "id": "mule",
-    "attributes": {}
-  }
+  "minMuleVersion": "4.1.2"
 }
