@@ -31,18 +31,7 @@
                   <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound> 
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>se.thinkcode.blog</groupId>
-                <artifactId>parameter-maven-plugin</artifactId>
-                <version>1.0-SNAPSHOT</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>get-build-dir</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+            
         </plugins>
        <outputDirectory>${basedir}/target/classes</outputDirectory>
     </build>
