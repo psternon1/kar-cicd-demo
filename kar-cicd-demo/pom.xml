@@ -28,7 +28,7 @@
                 <version>${mule.maven.plugin.version}</version>
                 <extensions>true</extensions>
                 <configuration>
-                   
+                  <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound> 
                 </configuration>
             </plugin>
         </plugins>
